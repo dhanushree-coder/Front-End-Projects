@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #000000, #1f1f1f);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    background: rgba(47, 2, 50, 0.1);
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 8px 32px 0 rgba(97, 6, 95, 0.2);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(0, 255, 0, 0.2);
+    color: #fff;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(186, 51, 159, 0.5);
+  }
+  
+  .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #FF10F0;
+    margin-bottom: 15px;
+  }
+  
+  .role {
+    color: #FF10F0;
+    margin: 5px 0;
+  }
+  
+  .bio {
+    font-size: 14px;
+    color: #ccc;
+  }
+  
